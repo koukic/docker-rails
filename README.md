@@ -9,10 +9,10 @@ $ git clone git@github.com:koukic/docker-rails
 Please change the directory name
 $ cd directoryname
 $ docker-compose build
-$ docker-compose run --rm app bin/yarn install
+$ docker-compose run --rm web bin/yarn install
 if you need
-$ docker-compose run --rm app yarn install --check-files
-$ docker-compose run --rm app rake tmp:create
+$ docker-compose run --rm web yarn install --check-files
+$ docker-compose run --rm web rake tmp:create
 
 change git remote url
 $ git remote set-url origin https://github.com/koukic/~
